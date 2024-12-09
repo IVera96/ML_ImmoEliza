@@ -54,13 +54,13 @@ Let's compare the results of different models trained. For evaluation, I used th
 - Fit patience: 10 for early stopping
 - Batch_size: 16
   
-- Using SDV for all features:
+a. Using SDV for all features:
 MAE:  62448.73
-- Without SDV for all features:
+b. Without SDV for all features:
 MAE: 83571.69
-- Without SDV 5 features: 
+c.  Without SDV 5 features: 
 MAE:  72840.60
-- Using SDV 5 features:
+d.  Using SDV 5 features:
 MAE:  73393.24
 
 2. DNN with Bayesian Optimization:
