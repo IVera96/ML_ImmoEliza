@@ -54,14 +54,14 @@ Let's compare the results of different models trained. For evaluation, I used th
 - Fit patience: 10 for early stopping
 - Batch_size: 16
   
-a. Using SDV for all features:
-MAE:  62448.73 \n
-b. Without SDV for all features:
-MAE: 83571.69 \n
-c.  Without SDV 5 features: 
-MAE:  72840.60 \n
-d.  Using SDV 5 features:
-MAE:  73393.24 \n
+- Using SDV for all features:
+MAE:  62448.73 
+- Without SDV for all features:
+MAE: 83571.69 
+-  Without SDV 5 features: 
+MAE:  72840.60
+-  Using SDV 5 features:
+MAE:  73393.24 
 
 2. DNN with Bayesian Optimization:
 In this section, we analyze the results of the model with and without outliers. The following settings were used:
