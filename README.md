@@ -108,6 +108,7 @@ The presence of outliers negatively impacted the model's performance, as evidenc
 Feature Selection:
 The 5 SHAP-selected features consistently performed well across different configurations, indicating their strong influence on the model’s predictions even if the model performs better with all the data.
 
+Questions:
 How could you improve this result?
 - Feature Engineering: Create new features, such as more detailed economic data.
 - Ensemble Models: Combine DNN with other models to improve performance.
@@ -130,5 +131,9 @@ Try to illustrate your model if it's possible to make it interpretable:
 - Predictions vs Actual (Test Set)
 - Real vs Predicted Price (Short Version)
 
+# References: 
+- https://price.immoweb.be/fr
+- https://statbel.fgov.be/fr/nouvelles/le-revenu-moyen-des-belges-selevait-20357-euros-en-2021
+  
 
 
