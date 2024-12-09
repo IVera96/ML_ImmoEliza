@@ -145,8 +145,7 @@ R2: 0.5070493838229526
 
 
 
-Short version no outliers and DSV all features, batch_size=16 
-
+Short version no outliers and DSV all features, batch_size=16 , epochs=200, patience=10
 Train: 
 RMSE: 64147.92170872157
 MAE:  46021.05740758478
@@ -160,7 +159,7 @@ MAPE: 21.124472426847937 %
 SMAPE: 19.220808374550284 %
 R2: 0.6462207359865522
 
-Short version DNN no outliers all features, batch_size=16 
+Short version DNN no outliers all features, batch_size=16 , epochs=200, patience=10
 
 Train: 
 RMSE: 114250.27380544411
@@ -175,7 +174,7 @@ MAPE: 27.603493078097102 %
 SMAPE: 25.053452507393157 %
 R2: 0.36725610988702595
 
-Short version DNN no outliers 5F, batch_size=16 
+Short version DNN no outliers 5F, batch_size=16 , epochs=200, patience=10
 Train: 
 RMSE: 98442.86324369583
 MAE:  72840.60170129231
@@ -189,7 +188,7 @@ MAPE: 25.819799025658263 %
 SMAPE: 22.684944870870904 %
 R2: 0.5086315000227949
 
-Short version DNN no outliers 5F + SDV , batch_size=16 
+Short version DNN no outliers 5F + SDV , batch_size=16 , epochs=200, patience=10
 Train: 
 RMSE: 89097.78261686594
 MAE:  65540.62482620083
