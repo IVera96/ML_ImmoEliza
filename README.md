@@ -1,4 +1,4 @@
-"""
+README = """
 # Problem:
 The real estate company "ImmoEliza" asked to develop a machine learning model that can predict property prices in Belgium's real estate market.
 To address this challenge, I created a Deep Neural Network (DNN) model.
