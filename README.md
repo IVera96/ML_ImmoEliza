@@ -1,4 +1,4 @@
-'''
+
 # Problem:
 The real estate company "ImmoEliza" asked to develop a machine learning model that can predict property prices in Belgium's real estate market.
 To address this challenge, I created a Deep Neural Network (DNN) model.
@@ -16,7 +16,7 @@ r2_score, mean_absolute_percentage_error, mean_absolute_error, mean_squared_erro
 tensorflow as tf
 adjust_row, remove_outliers, accuracy, smape from functions
 
-Data Overview:
+# Data Overview:
 The original dataset contains 16 columns and 1,663 rows, including 5 categorical features. There are no missing values in the data.
 For preprocessing the categorical features, Label Encoding was applied.
 To handle outliers in the dataset, I used the Isolation Forest algorithm.
@@ -48,18 +48,19 @@ For this, I developed a function called adjust_row. This function performs the f
 
 # Model Performance Analysis:
 Let's compare the results of different models trained. For evaluation, I used the Mean Absolute Error (MAE) metric. The following settings were used for training:
+
+1. DNN with 6 Layers we analyze the results of the model without outliers. The following settings were used:
 - Epochs: 200
 - Fit patience: 10 for early stopping
 - Batch_size: 16
-
-1. DNN with 6 Layers:
-Using SDV for all features without outliers:
+  
+Using SDV for all features:
 MAE:  62448.73
-Without SDV for all features without outliers:
+Without SDV for all features:
 MAE: 83571.69
-Without SDV 5 features without outliers: 
+Without SDV 5 features: 
 MAE:  72840.60
-Using SDV 5 features without outliers:
+Using SDV 5 features:
 MAE:  73393.24
 
 2. DNN with Bayesian Optimization:
@@ -121,4 +122,4 @@ How should you divide your time working on this kind of project?
 Try to illustrate your model if it's possible to make it interpretable:
 - Use SHAP to visualize feature importance.
   
-'''
+
