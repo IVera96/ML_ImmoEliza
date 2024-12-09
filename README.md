@@ -1,4 +1,4 @@
-README = """
+'''
 # Problem:
 The real estate company "ImmoEliza" asked to develop a machine learning model that can predict property prices in Belgium's real estate market.
 To address this challenge, I created a Deep Neural Network (DNN) model.
@@ -121,4 +121,4 @@ How should you divide your time working on this kind of project?
 Try to illustrate your model if it's possible to make it interpretable:
 - Use SHAP to visualize feature importance.
   
-"""
+'''
