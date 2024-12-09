@@ -1,7 +1,7 @@
-#Problem:
+# Problem:
 The real estate company "ImmoEliza" asked to develop a machine learning model that can predict property prices in Belgium's real estate market.
 To address this challenge, I created a Deep Neural Network (DNN) model.
-#Installation:
+# Installation:
 pandas
 numpy
 MinMaxScaler from sklearn.preprocessing
@@ -14,7 +14,7 @@ r2_score, mean_absolute_percentage_error, mean_absolute_error, mean_squared_erro
 tensorflow as tf
 adjust_row, remove_outliers, accuracy, smape from functions
 
-#Data Overview:
+# Data Overview:
 The original dataset contains 16 columns and 1,663 rows, including 5 categorical features. There are no missing values in the data.
 For preprocessing the categorical features, Label Encoding was applied.
 To handle outliers in the dataset, I used the Isolation Forest algorithm.
@@ -29,7 +29,7 @@ Salary_prov_med
 Prix_m2_prov
 Municipality
 Living_Area
-#Model Development:
+# Model Development:
 Initially, the DNN model's performance was not satisfactory due to having too few layers and an insufficient number of neurons. To improve the model, I present two versions:
 The first model uses 6 layers.
 The second model leverages Bayesian Optimization to tune the hyperparameters for better training performance.
@@ -40,7 +40,7 @@ Adjusts the living area and price of a property with a random variation.
 It simulates a small random change in the living area (between -10% and +10%) and recalculates the adjusted price based on:
 The province's average price per square meter (weighted at 20%).
 The current property's price (weighted at 80%).
-#Model Performance Analysis:
+# Model Performance Analysis:
 Let's compare the results of different models trained. For evaluation, I used the Mean Absolute Error (MAE) metric. The following settings were used for training:
 Epochs: 200
 Fit patience: 10 for early stopping
@@ -80,7 +80,7 @@ Using all features, batch size 32:
 MAE: 65,005.93
 Using the 5 SHAP-selected features, batch size 32:
 MAE: 76,250.22
-#Conclusion:
+# Conclusion:
 From the model performance analysis, we can draw the following conclusions:
 DNN with 6 Layers:
 The use of Synthetic Data Vault (SDV) to augment the data significantly improved the model's performance, reducing the MAE from 83,571 (without SDV) to 62448.73  (with SDV). This indicates that synthetic data can be a valuable tool for improving the model's predictive accuracy.
