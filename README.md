@@ -55,13 +55,13 @@ Let's compare the results of different models trained. For evaluation, I used th
 - Batch_size: 16
   
 a. Using SDV for all features:
-MAE:  62448.73
+MAE:  62448.73 \n
 b. Without SDV for all features:
-MAE: 83571.69
+MAE: 83571.69 \n
 c.  Without SDV 5 features: 
-MAE:  72840.60
+MAE:  72840.60 \n
 d.  Using SDV 5 features:
-MAE:  73393.24
+MAE:  73393.24 \n
 
 2. DNN with Bayesian Optimization:
 In this section, we analyze the results of the model with and without outliers. The following settings were used:
