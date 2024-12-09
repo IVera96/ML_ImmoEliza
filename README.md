@@ -54,13 +54,13 @@ Let's compare the results of different models trained. For evaluation, I used th
 - Fit patience: 10 for early stopping
 - Batch_size: 16
   
-Using SDV for all features:
+- Using SDV for all features:
 MAE:  62448.73
-Without SDV for all features:
+- Without SDV for all features:
 MAE: 83571.69
-Without SDV 5 features: 
+- Without SDV 5 features: 
 MAE:  72840.60
-Using SDV 5 features:
+- Using SDV 5 features:
 MAE:  73393.24
 
 2. DNN with Bayesian Optimization:
@@ -72,20 +72,20 @@ In this section, we analyze the results of the model with and without outliers. 
 
 With Outliers:
 DNN with Bayesian Optimization:
-For the 5 SHAP-selected features, with a batch size of 16:
+- For the 5 SHAP-selected features, with a batch size of 16:
 MAE: 78896.54
-For the 5 SHAP-selected features, with a batch size of 32:
+- For the 5 SHAP-selected features, with a batch size of 32:
 MAE: 79325.51
-For the 5 SHAP-selected features with SDV, with a batch size of 16:
+- For the 5 SHAP-selected features with SDV, with a batch size of 16:
 MAE: 69,105.98
 
 Without Outliers:
 DNN with Bayesian Optimization and SDV:
-Using all features, batch size 16:
+- Using all features, batch size 16:
 MAE: 65,380.18
-Using all features, batch size 32:
+- Using all features, batch size 32:
 MAE: 65,005.93
-Using the 5 SHAP-selected features, batch size 32:
+- Using the 5 SHAP-selected features, batch size 32:
 MAE: 76,250.22
 
 # Conclusion:
