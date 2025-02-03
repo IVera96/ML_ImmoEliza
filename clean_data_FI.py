@@ -5,9 +5,12 @@ import numpy as np
 import seaborn as sns
 from scipy.interpolate import interp1d
 
-df = pd.read_csv("immoweb_data_cleaned.csv")
 
-
+# Load the data
+original_data_path = (
+    r"./Data/immoweb_data_cleaned.csv"
+)
+df = pd.read_csv(original_data_path)
 salary_province = {
     "East Flanders": 22073,
     "Antwerp": 21270,
